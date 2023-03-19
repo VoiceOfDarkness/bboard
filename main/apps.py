@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 from django.dispatch import Signal
 
-from .utilites import send_activation_notification
+from .utilities import send_activation_notification
 
 
 class MainConfig(AppConfig):
@@ -10,7 +10,7 @@ class MainConfig(AppConfig):
     verbose_name = 'Доска Объявлений'
 
 
-user_registered = Signal(providing_args=['instance'])
+user_registered = Signal('instance')
 
 
 def user_registered_dispatcher(sender, **kwargs):
