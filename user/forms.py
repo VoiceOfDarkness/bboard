@@ -3,7 +3,6 @@ from django.contrib.auth import password_validation
 from django.core.exceptions import ValidationError
 
 from main.apps import user_registered
-
 from main.models import AdvUser
 
 

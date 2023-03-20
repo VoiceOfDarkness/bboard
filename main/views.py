@@ -1,9 +1,9 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView, LogoutView
 from django.http import Http404, HttpResponse
 from django.template import TemplateDoesNotExist
 from django.template.loader import get_template
 from django.views.generic.base import TemplateView
-from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 class IndexView(TemplateView):
