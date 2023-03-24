@@ -4,3 +4,4 @@ ignore=
     E501,
     #line break after binary operator
     W504
+    W293

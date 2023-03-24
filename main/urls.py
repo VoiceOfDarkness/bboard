@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import IndexView, BBLoginView, BBLogoutView, other_page
+from .views import BBLoginView, BBLogoutView, IndexView, other_page
 
 app_name = 'main'
 

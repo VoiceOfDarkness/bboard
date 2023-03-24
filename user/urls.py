@@ -1,7 +1,7 @@
 from django.urls import path
 
-from .views import (BBPasswordChangeView, ChangeUserInfoView, RegisterDoneView,
-                    RegisterUserView, profile, user_activate, DeleteUserView)
+from .views import (BBPasswordChangeView, ChangeUserInfoView, DeleteUserView,
+                    RegisterDoneView, RegisterUserView, profile, user_activate)
 
 app_name = 'user'
 

@@ -1,7 +1,9 @@
-from django.contrib import admin
 import datetime
 
+from django.contrib import admin
+
 from main.models import AdvUser
+
 from .utilities import send_activation_notification
 
 
